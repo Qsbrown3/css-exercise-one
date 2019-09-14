@@ -1,6 +1,10 @@
-body
+/* Here is the Body*/
+
+body {
   font-size: 14px;
 }
+
+/* Navigation */
 
 nav {
   background color: yellow;
@@ -8,13 +12,16 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
+/* Section */
 
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+/* H1's properties */
 h1 {
   font-family sans-serif;
   font-size: 2em;
@@ -22,15 +29,24 @@ h1 {
 
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
+/* H3's properties */
 h3 {
   font-size: 1.3em;
 }
 
+/* Elements' properties */
+
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+/* Element_2's properties */
+.element_2 {
+  background-color: rgb(87,156, 154);
+}
